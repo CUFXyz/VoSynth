@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="VoSynth/VoSynth.vcxproj" Id="de5886bc-6975-440e-ad1e-f7b8cab9c598" />
+</Solution>
