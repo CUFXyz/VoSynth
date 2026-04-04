@@ -141,6 +141,9 @@
     <ClCompile Include="src\phoneme_db.c" />
     <ClCompile Include="src\VSCore.c" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitattributes" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

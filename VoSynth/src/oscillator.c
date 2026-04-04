@@ -16,3 +16,7 @@ float oscillator_sin(Oscillator* osc)
 	if (osc->phase >= 1.0f) osc->phase -= 1.0f;
 	return value;
 }
+
+void oscillator_reset(Oscillator* osc) {
+	osc->phase = 0.0f;
+}

@@ -14,5 +14,6 @@ typedef struct {
 
 float oscillator_saw(Oscillator* osc);
 float oscillator_sin(Oscillator* osc);
+void oscillator_reset(Oscillator* osc);
 
 #endif // !OSCILLATOR_H

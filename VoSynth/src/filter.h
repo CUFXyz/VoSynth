@@ -11,6 +11,7 @@ typedef struct {
 } Biquad;
 
 void biquad_peak(Biquad* f, float freq, float Q, float gain_db, float sample_rate);
+void biquad_lowpass(Biquad* f, float cutoff, float sample_rate);
 float biquad_process(Biquad* f, float input);
 
 #endif // !FILTER_H
